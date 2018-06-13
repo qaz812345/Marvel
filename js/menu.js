@@ -1,0 +1,9 @@
+$(document).ready(function(){
+    $(".subs").hide();
+    $("#nav").mouseover(function(){ 
+        $(".subs").slideDown();
+    });
+    $("#nav").mouseleave(function(){
+        $(".subs").hide(); 
+    });
+});

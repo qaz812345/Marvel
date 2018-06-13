@@ -1,0 +1,96 @@
+@font-face{
+    font-family: title;
+    src:url(../font/BentonSans.ttf);
+}
+
+body {
+    margin: 0px;
+    height: 100%;
+    padding-bottom: 5%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.head {
+    position: fixed;
+    top:0px;
+    height:15%;
+    width:100%;
+    z-index: 1000;
+	background-color:rgb(202, 33, 43);
+	color: #FFFFFF;
+}
+
+.headtext {
+    position: relative;
+    top: 15%;
+    left: 5%;
+    font-family: title;
+    font-size: 60px;
+}
+
+#nav {
+    width: 100px;
+    position: absolute;
+    top: 25%;
+    right: 8%;
+}
+
+#nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+#nav li {
+    list-style: none;
+}
+
+.main {
+    height: 5%;
+    width: 100px;
+    padding-bottom: 5%;
+    background-color: rgb(202, 33, 43);
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: title;
+    text-align: center;
+    font-size: 40px;
+} 
+
+.subs li a {
+    width: 200px;
+    display: block;
+    padding: 10px;
+    background-color: #F5F5F5;
+    font-family:Microsoft JhengHei;
+    font-size: 30px;
+    text-align: center;
+    color:rgb(202, 33, 43);
+    border-bottom: 5px solid #FFFFFF;
+   
+}
+
+.subs{
+    margin-top: 25%;
+    margin-left: -140%;
+}
+
+
+.color_red .subs li a:hover {
+    background-color:#C0C0C0;
+    color: #FFFFFF;
+    border-bottom: 5px solid #FFFFFF;
+    
+}
+
+.charimg{
+    padding-top: 7%;
+    text-align: center;
+    overflow: auto;   
+}
+
+img{
+    overflow: auto; 
+}

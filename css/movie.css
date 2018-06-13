@@ -1,0 +1,25 @@
+.content{
+    width: 80%;
+    margin: auto;
+    padding: 100px 0;
+}
+
+h1{
+    font-family: Microsoft JhengHei;
+    font-size: 40px;
+    color: rgb(202, 33, 43);
+}
+
+p{
+    line-height: 36px;
+    font-family: Microsoft JhengHei;
+    font-size: 18px;
+}
+
+.introduction img {
+    float: right;
+    width: auto;  
+    height: auto;
+    padding-bottom: 5%; 
+    overflow: auto;     
+}

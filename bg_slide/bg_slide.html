@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<style type="text/css">
+.center-div
+{
+	position: absolute;
+	width:1000px;
+	height:562.5px;
+	top: 200;
+	right: 0%;
+	bottom: 0;
+	left: 500px;
+}
+
+body{
+	　overflow-y: scroll;
+
+	　overflow-x: hidden;
+}
+
+		</style>
+	</head>
+	<body height="100%" width="100%">	
+		<div height="100%" width="100%">
+			<script src="jquery.js" type="text/javascript"></script>
+			<script src="jquery.backstretch.js" type="text/javascript"></script>
+			<script>
+				$.backstretch([
+					"blur/鋼鐵人.jpg",
+					"blur/浩克.jpg",
+					"blur/雷神索爾.jpg",
+					"blur/美國隊長.jpg",
+					"blur/蜘蛛人.jpg",
+					"blur/黑豹.jpg"
+				], {
+					fade: 3000,
+					duration: 2200,
+					preload: 0,
+					start: 0
+				});
+			</script>
+		</div>
+		<!--		<div class=".center-div">
+	  <iframe frameborder="0" src="slide.html" style="height:562.5px; width:1000px"> </iframe>
+	  </div>-->
+
+	  	 <div align="middle" sytle="padding-top:100; padding-bottom:100;">
+	   <iframe frameborder="0" src="slide.html" scrolling="no" style="height:820px; width:1000px; padding-top:100; padding-bottom:100;"> </iframe>
+		  
+		</div>
+<!--	   <div align="center" padding-top="10">
+		   <table  width="1000" height="1000" scrolling="no">
+			   <tr>
+				   <td scrolling="no">
+					   <iframe frameborder="0" src="slide.html" scrolling="no" style=" height:562.5px; width:1000px;"> </iframe>
+				   </td>
+			   </tr>
+		   </table>
+	   </div>-->
+
+	</body>
+</html>

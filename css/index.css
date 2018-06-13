@@ -1,0 +1,51 @@
+﻿@font-face{
+	font-family:title-text;
+	src:url(../font/BentonSans.ttf)
+}
+
+body{
+	margin:0px;	
+	background-color: rgb(202, 33, 43);
+}
+
+div.title{
+	height:100%;
+	width:100%;
+//	background-color:#880000;
+	background-color: rgb(202, 33, 43);
+	color: #FFFFFF;
+	font-family:title-text;
+	font-size:500px;
+//	position:relative;
+	letter-spacing: -20px;	
+	top:0px;
+	text-align:center;
+//	border:solid;
+}
+
+div.movie-list{
+	height:100%;
+	width:100%;
+	background-color:#DCDCDC;
+//	background-color: rgb(87, 0, 1);
+}
+
+table{
+	height:100%;
+	width:80%;
+	margin-left:auto; 
+	margin-right:auto;
+	position:relative;
+	vertical-align:middle;
+	top:0%
+}
+
+tr,td{
+	padding: 15px;
+    text-align: center;
+}
+
+.table-item{
+	height:300px;
+	width:300px;
+}
